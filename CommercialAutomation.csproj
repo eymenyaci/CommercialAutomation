@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -156,6 +157,25 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Web\401.html" />
+    <Content Include="Web\404.html" />
+    <Content Include="Web\500.html" />
+    <Content Include="Web\assets\demo\chart-area-demo.js" />
+    <Content Include="Web\assets\demo\chart-bar-demo.js" />
+    <Content Include="Web\assets\demo\chart-pie-demo.js" />
+    <Content Include="Web\assets\demo\datatables-demo.js" />
+    <Content Include="Web\assets\img\error-404-monochrome.svg" />
+    <Content Include="Web\charts.html" />
+    <Content Include="Web\css\styles.css" />
+    <Content Include="Web\index.html" />
+    <Content Include="Web\js\datatables-simple-demo.js" />
+    <Content Include="Web\js\scripts.js" />
+    <Content Include="Web\layout-sidenav-light.html" />
+    <Content Include="Web\layout-static.html" />
+    <Content Include="Web\login.html" />
+    <Content Include="Web\password.html" />
+    <Content Include="Web\register.html" />
+    <Content Include="Web\tables.html" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -181,6 +201,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Category\Index.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
