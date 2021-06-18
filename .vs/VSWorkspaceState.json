@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\Content",
+    "\\Controllers",
+    "\\fonts",
+    "\\Migrations",
+    "\\Models",
+    "\\Models\\Classes",
+    "\\Views",
+    "\\Web"
+  ],
+  "SelectedNode": "\\App_Start",
+  "PreviewInSolutionExplorer": false
+}
