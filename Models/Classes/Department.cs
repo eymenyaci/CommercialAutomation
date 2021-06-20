@@ -15,6 +15,7 @@ namespace CommercialAutomation.Models.Classes
         [Column(TypeName = "Varchar")]
         [StringLength(30)]
         public String DepartmentName { get; set; }
+        public bool Status { get; set; }
 
         public ICollection<Staff> Staffs { get; set; } // Bir departmanda birden fazla personel olabilir.
     }

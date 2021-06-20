@@ -27,7 +27,12 @@ namespace CommercialAutomation.Models.Classes
         [Column(TypeName = "Varchar")]
         [StringLength(400)]
         public String ProductImage { get; set; }
-        public Category Category { get; set; } //Bir ürünün bir kategorisi olabilir.
+
+        public int CatID { get; set; }
+        public virtual Category Category { get; set; } //Bir ürünün bir kategorisi olabilir.
+      
+
+
         public ICollection<SalesMovement> SalesMovements { get; set; }
     }
 }
